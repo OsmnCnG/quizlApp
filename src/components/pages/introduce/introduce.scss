@@ -1,0 +1,41 @@
+.introduce {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#9CE5E6, #4ABDAC);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .introduce-container {
+        max-width: 700px;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem;
+        border: 1px solid transparent;
+        border-radius: 10px;
+    }
+
+
+    .introduce-btn {
+        width: 350px;
+        height: 50px;
+        font-size: 17px;
+        background-color:#4abd54;
+        color: white;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        cursor: pointer;
+
+    }
+
+}
+
